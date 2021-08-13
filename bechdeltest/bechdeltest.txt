@@ -1,0 +1,30 @@
+O site bechdeltest.com tem uma função muito clara: mostrar quais filmes passam no teste de Bechdel, ou seja: (1) têm 2 personagens femininos ou mais (com nome e relevância na trama), (2) que falam uma com a outra e (3) o assunto de que falam não é homem.
+
+1) A função desse site é bem executada?
+
+Este site possui várias funções, como até mesmo uma API para efetuar buscas de informações com informações de vários filmes, porém essa busca de dados não parece ser tão eficiente, pois é citado: "Please keep in mind I'm running this site on a shared hosting plan, so if you send lots of queries in a short time, you might get me in trouble. Please be nice and definitely don't use this data on anything with a lot of traffic". Isto demostra que ele precisa confiar nos usuários.
+Ele também permite que usuários adicionem filmes com as avaliações referentes ao teste proposto, um comentário e um email para contato. 
+Além disso, ele lista todos os filmes cadastrados com um ícone indicando a avaliação de ter ou não passado no teste. Ao clicar nesse título, o usuário é encaminhado a uma página com mais informações referentes ao filme, ali é possível comentar mais sobre o filme e adicionar sua avaliação.
+
+O site possui bastante funções com o objetivo central de testar o filme com o teste de Bechdel. Comporta-se como uma comunidade pequena, provoca a interação de pessoas e recomendações sobre o filme. Ao que parece, o site é bem funcional e faz muito mais do que ele propõe. 
+O problema é a navegação que por ser muito bagunçada, e com muitas informações desnecessárias mais ressaltadas que o propósito da plataforma, é muito complicado entender para onde ir; só consegui compreender as funções depois de ler as instuções.
+
+Por esses problemas de navegação, o objetivo de construir uma comunidade não é bem sucedida por conta da má experiência do usuário, embora ter várias funcionalidades. Mesmo para pesquisar a lista de filmes, é complicado entender antes de ler as instruções; portanto, a conclusão é que a sua função não é bem executada por não conseguir manter ou conquistar usuários para uma plataforma que precisa de muitos usuários para poder funcionar.
+
+2) Você encontrou algum fime interessante que passe nesse teste? Informe.
+Scoob: não esperava que esse filme teria um papel relacionado ao a diminuição do machismo 
+After: Um filme que não vi, quero ver. Com um cunho romântico, ele passou no teste.
+
+3) Você encontrou algum fime interessante que não passe nesse teste? Informe.
+Homefront: Um filme que gosto muito, embora desmotrar o amor entre pai e filha e seus cuidados num filme de ação, ele falhou no teste. Pois os personagens pricnipais são masculinos.
+
+4) Visualmente o site é fraco. Isso é uma afirmação.
+Diga como o site pode ser melhorado, focando sempre na experiência do usuário.
+
+O site poderia iniciar com uma navbar no topo, com algumas categorias para porcurar, como: filmes, séries, gêneros e uma cixa de pesquisa pelo filme que atualemnte está escondida no final da lista).
+
+Abaixo poderiam ter várias listas, assim como a netflix, onde cada uma dessas listas representam uma categoria, como os mais procurados, melhor avaliados, lançamentos, entre outros. Isso porque as pessoas já esão acostumadas com o uso de listas para filmes.
+
+Na página de avaliar o filme, poderia existir, antes da seção de avaliar, a capa na esquerda e informações relacionadas na direita, com um título e avalição destacados (imagem na esquerda, pois começamos a ler da esquerda para a direita, a imagem do filme faz  o usuáio ter ineresse nas outras informações relacionadas a ele). Abaixo, colocar um local para adicionar as avaliações e comentários de uma forma ordenada por horário. A esqueda dos comentários, poderia existir alguns outros títulos de filmes para influenciar o usuário continuar navegando pela página . 
+
+
