@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.aplicacao{
+    display: flex;
+}
+
+#myNavNavbar{
+    margin-left: auto;
+    margin-right:50px;
+}
+
+#sobreMimConteiner{
+    width: 951px;
+    padding: 0 80px;
+}
+
+#sobreMimConteiner h1{
+    text-align: center;
+}
+
+#sobreMimConteiner img{
+    width: 286px;
+    margin-right: 10px;
+}
+
+#sobreMimConteiner > .info{
+    display: flex;
+    flex-direction: row;
+}
+
+#sobreMimConteiner h1{
+    margin-bottom: 14px;
+}
+
+.me-encontrar-section{
+    position: fixed; 
+    right: 0;
+    padding: 31px;
+    display: flex;
+    flex-direction: column;
+}
+
+.me-encontrar-section h1{
+    font-size: 32px;
+}
+
+.me-encontrar-section div{
+    margin-bottom: 14px;
+}
+
+.me-encontrar-section a, .me-encontrar-section a:hover{
+    color: #000;
+    font-style: unset;
+}
+
+.timeline{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 951px;
+}
+
+.timeline h1{
+    text-align: center;
+}
+
+.linha-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 50px;
+    padding-right: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.linha-container:after{
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: #1DAFD6;
+    position: absolute;
+    top: 48px;
+    pointer-events: none;
+}
+
+.linha-item-circulo{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #C4C4C4;
+    margin: 0;
+    align-self: flex-end;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.linha-item-circulo:last-child{
+    margin-left: auto;
+}
+
+.linha-item{
+    display: flex;
+    flex-direction: column;
+}
+
+.linha-item-nome{
+    align-self: center;
+}
+
+.circulo-reta-inativo{
+    height: 2px;
+    width: calc(100% / 3); 
+    background-color: #C4C4C4;
+    position: absolute;
+    top: 48px;
+    margin-left: 30px;
+    pointer-events: none;
+    z-index: 100;
+}
+
+.area-display{
+    padding: 0 50px;
+    display: flex;
+    flex-direction: row;
+    min-height: 740px;
+}
+
+.display-item{
+    display: none;
+}
+
+.display-item-content iframe{
+    flex-basis: 50px;
+    max-height: 300px;
+    max-width: 280px;
+}
+
+@media (max-width: 1000px){
+    .me-encontrar-section{
+        position: initial;
+    }
+}
