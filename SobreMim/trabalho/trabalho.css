@@ -1,0 +1,18 @@
+img{
+    width: 300px;
+    height: auto;
+}
+
+#aplicationSection{
+    background: url('https://media0.giphy.com/media/eJWd74rtreWTUV2FNp/giphy.gif?cid=ecf05e47o6z8p5o4jr2w9eh4ng98k1qbyq1kpw6hzqo37ahe&rid=giphy.gif&ct=g');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: calc(100vh - 80px);
+}
+
+.gradient{
+    min-height: inherit;
+    background: linear-gradient(to right, #000000e0, #2434a740);
+    display: flex;
+    flex-direction: column;
+}

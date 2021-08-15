@@ -1,16 +1,27 @@
 #myNavNavbar{
-    padding-left: 80px;
-    padding-right:50px;
     height: 80px;
+    padding: 0 !important;
+}
+
+#myNavNavbar > .container-fluid{
+    padding: 0 !important;
+}
+#myNavNavbar .navbar-brand{
+    margin-left: 40px;
+}
+#myNavNavbar .navbar-brand{
+    margin-left: 40px;
+}
+#myNavNavbar .navbar-toggler{
+    margin-right: 40px !important;
+}
+#mainNavbar {
+    padding: 1.5rem!important;;
+}
+#mainNavbar{
+    background-color: #f8f9fa;
 }
 
 #mainNavbar > ul{
     margin-left: auto;
-}
-
-@media (min-width: 300px){
-    #myNavNavbar{
-        padding-left: 20px;
-        padding-right:70px;
-    }
 }
