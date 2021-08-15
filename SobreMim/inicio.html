@@ -11,29 +11,48 @@
     <script src="main.js" defer></script>
 
 
+    <link rel="stylesheet" href="globalStyles.css">
     <link rel="stylesheet" href="./styles.css">
 
 </head>
 <body>
    
-    <div class="container">
-        <nav id="myMainNavbar" class="navbar navbar-expand-sm navbar-light">
+    <nav id="myNavNavbar" class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container-fluid">
             <a class="navbar-brand" href="#">Gustavo Inacio</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div id="myNavNavbar" class="navbar-nav">
-                    <a id="myNavHome" class="nav-link active" aria-current="page" href="#">Home</a>
-                    <a class="nav-link" href="#">Futuro</a>
-                    <a class="nav-link" href="#">Trabalho</a>
-                    <a class="nav-link" href="#">Hobbies</a>
-                    <a class="nav-link" href="#">Receitas</a>
-                </div>
+
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Receitas
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="./receitas/receitas01.html">TORTA DE ABOBRINHA (ZUCHINNI)</a></li>
+                            <li><a class="dropdown-item" href="./receitas/receita02.html">COUVE-FLOR ASSADA</a></li>
+                            <li><a class="dropdown-item" href="./receitas/receita03.html">torta de frango</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Futuro</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Trabalho</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Hobbies</a>
+                    </li>
+                    
+                </ul>
             </div>
-        
-        </nav>
-    </div>
+        </div>
+    </nav>
 
     <section class="aplicacao">
         <section id="left-side">    

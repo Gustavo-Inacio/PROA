@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+#myNavNavbar{
+    flex-basis: 80px;
+}
+
+#recipeSection{
+    display: flex;
+    height: calc(100vh - 80px);
+}
+
+.img-list-recipe{
+    display: flex;
+    flex-direction: column;
+}
+
+.img-list-recipe h1{
+    font-size: 20px;
+    text-align: center;
+    padding-left: 32px;
+}
+
+.recipe-list-img{
+    list-style-type: none;
+    width: 400px;
+}
+
+.recipe-list-img li{
+    width: inherit;
+}
+
+.recipe-list-img img{
+    width: inherit;
+}
+
+.recipe-text{
+    overflow-y: auto;
+    max-height: inherit; 
+    margin-left: 100px;
+    padding: 30px ;
+    max-width: 40%;
+}
+

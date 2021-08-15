@@ -1,0 +1,16 @@
+#myNavNavbar{
+    padding-left: 80px;
+    padding-right:50px;
+    height: 80px;
+}
+
+#mainNavbar > ul{
+    margin-left: auto;
+}
+
+@media (min-width: 300px){
+    #myNavNavbar{
+        padding-left: 20px;
+        padding-right:70px;
+    }
+}
