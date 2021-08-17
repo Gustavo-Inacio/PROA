@@ -18,6 +18,8 @@
 
 #sobreMimConteiner img{
     width: 286px;
+    height: auto;
+    object-fit: cover;
     margin-right: 10px;
 }
 
