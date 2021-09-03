@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 4</title>
+</head>
+<body>
+    <h1>4. Faça um programa que leia 3 valores (considere que não serão informados valores iguais) e escrever a soma dos 2 maiores. *
+    </h1>
+
+
+    <script>
+        let num1 = Number(prompt("Informe o primeiro número"));
+        let num2 = Number(prompt("Informe o segundo número"));
+        let num3 = Number(prompt("Informe o terceiro número"));
+
+        let maior;
+        let segMaior;
+
+        if(num1 > num2){  
+            if(num1 > num3){ // n1 > n2 e n1 > n3
+                maior = num1;
+                if(num2 > num3) segMaior = num2;
+                else segMaior = num3;
+            } 
+            else{ // n1 > n2 e n1 < n3. Prontanto a ordem eh: n2, n1, n3
+                maior = num3;
+                segMaior = num1;
+            } // num1 > num2, porem menor que num3. Logo num3 > todos
+        }
+        else { // num2 > num1
+            if(num2 > num3){ // n2 > n1 e n2 > n3.
+                maior = num2;
+                if(num1 > num3) segMaior = num1; // n3 n1 n2
+                else segMaior = num3; // n1 n3 n2
+            } 
+            else{ // n2 > n1 e n2 < n3. Portanto, n1 n2 n3
+                maior = num3;
+                segMaior = num2;
+            } 
+        }
+
+        document.write(`A soma dos valores ${maior} + ${segMaior} = ${maior + segMaior}`);
+    </script>
+</body>
+</html>

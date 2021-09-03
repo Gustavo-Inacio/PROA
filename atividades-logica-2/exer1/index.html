@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 1</title>
+</head>
+<body>
+    <h1>1. Escreva um programa em Javascript em que o usuário informe dois números utilizando o "prompt". Então escreva em tela o maior deles.</h1>
+
+
+    <script>
+        let num1 = Number(prompt("Informe o primeiro número"));
+        let num2 = Number(prompt("Informe o segundo número"));
+
+        if(num1 > num2){
+            document.write("O número " + num1 + " é o maior");
+        }
+        else{
+            if(num1 == num2){
+                document.write('os numeros são igual e possuem o valor de: ' + num2);
+            }
+            else{
+                document.write(`o número ${num2} é o maior`);
+            }
+        }
+    </script>
+</body>
+</html>

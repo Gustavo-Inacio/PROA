@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 7</title>
+</head>
+<body>
+    <h1>7. Faça um programa que receba quatro valores informados pelo usuário, mas informe somente o primeiro, o último e o maior de todos eles (considere que todos os números informados serão diferentes) *</h1>
+
+    <script>
+       let num = [];
+       num[0] = Number(prompt("Informe um número"));
+       num[1] = Number(prompt("Informe um número"));
+       num[2] = Number(prompt("Informe um número"));
+       num[3] = Number(prompt("Informe um número"));
+
+       let maior;
+
+      for(let i = 0; i < num.length; i++){
+        if(i == 0) maior = num[i];
+        else if(maior < num[i]) maior = num[i];
+      }
+
+      document.write(`O primeiro número informado é ${num[0]} <br> O último número informado é: ${num[num.length -1]} <br> O maior número informado é: ${maior}`);
+
+    </script>
+</body>
+</html>
